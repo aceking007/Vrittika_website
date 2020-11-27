@@ -87,6 +87,9 @@ hr.style1 {
 .separator::after {
     margin-left: .25em;
 }
+iframe {
+  max-width: 100%;
+}
 #main_nav {
   background: #cc0000;
 }
