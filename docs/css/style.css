@@ -146,3 +146,7 @@ width:141px;
     left: 0;
     min-height: 500px;
 }
+/* text colouring */
+.red-text {
+  color: #9e2b3a;
+}
