@@ -15,12 +15,12 @@
 	 transform-style: preserve-3d;
 	 transition: transform 0.5s;
 }
- .backface figure img {
+ .backface figure div {
 	 width: 100%;
 	 box-sizing: border-box;
 	 padding: 0 0px;
 }
- .backface figure img:not(:first-of-type) {
+ .backface figure div:not(:first-of-type) {
 	 position: absolute;
 	 left: 0;
 	 top: 0;
@@ -42,13 +42,13 @@
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen
+/* @media only screen
 and (min-width : 321px) {
     /* Styles */
-}
+} */
 
 /* Smartphones (portrait) ----------- */
-@media only screen
+/* @media only screen
 and (max-width : 400px) {
   .arrow-left {
     position: relative;
@@ -60,10 +60,10 @@ and (max-width : 400px) {
     left: 33vw;
     bottom: 32vw;
   }
-}
+} */
 
 /* Desktops and laptops ----------- */
-@media only screen
+/* @media only screen
 and (min-width : 1224px) {
   .arrow-left {
     position: relative;
@@ -75,4 +75,4 @@ and (min-width : 1224px) {
     left: 30vw;
     bottom: 23vw;
   }
-}
+} */
