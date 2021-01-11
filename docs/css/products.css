@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 
-#scroller-eg {
+#scroller-eg, #scroller-ng, #scroller-nw {
   justify-content: center;
 }
 
