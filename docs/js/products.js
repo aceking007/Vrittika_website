@@ -17,3 +17,23 @@ buttonRightew.onclick = function () {
 buttonLeftew.onclick = function () {
   document.getElementById('scroller-ew').scrollLeft -= 500;
 };
+
+const buttonRightnw = document.getElementById('slideRight-nw');
+const buttonLeftnw = document.getElementById('slideLeft-nw');
+
+buttonRightnw.onclick = function () {
+  document.getElementById('scroller-nw').scrollLeft += 500;
+};
+buttonLeftnw.onclick = function () {
+  document.getElementById('scroller-nw').scrollLeft -= 500;
+};
+
+const buttonRightng = document.getElementById('slideRight-ng');
+const buttonLeftng = document.getElementById('slideLeft-ng');
+
+buttonRightng.onclick = function () {
+  document.getElementById('scroller-ng').scrollLeft += 500;
+};
+buttonLeftng.onclick = function () {
+  document.getElementById('scroller-ng').scrollLeft -= 500;
+};
