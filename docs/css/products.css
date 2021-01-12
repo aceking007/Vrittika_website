@@ -1,9 +1,10 @@
 .scroller {
-  overflow: hidden;
+  overflow: auto;
+  justify-content: left;
 }
 
-#scroller-eg, #scroller-ng, #scroller-nw {
-  justify-content: center;
+#scroller-eg, #scroller-ng {
+  justify-content: left;
 }
 
 .sliderLeft {
@@ -38,10 +39,7 @@
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     /* Styles */
-    .scroller {
-      overflow: auto;
-      justify-content: left;
-    }
+
 }
 
 /* Smartphones (landscape) ----------- */
@@ -82,6 +80,12 @@ and (orientation : portrait) {
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
+  .scroller {
+    overflow: hidden;
+  }
+  #scroller-ng, #scroller-eg {
+    justify-content: center;
+  }
 }
 
 /* Large screens ----------- */
