@@ -34,7 +34,10 @@
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     /* Styles */
-
+    #about-container {
+      padding: 30px;
+      padding-left: 10px;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
