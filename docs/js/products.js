@@ -37,3 +37,24 @@ buttonRightng.onclick = function () {
 buttonLeftng.onclick = function () {
   document.getElementById('scroller-ng').scrollLeft -= 500;
 };
+
+// $(function () {
+//   var $elem=$('#scroller-eg');
+//
+//   $elem.scroll(function (){
+//     $('#scroller-eg').scroll( function() {
+//         var $width = $('#scroller-eg').outerWidth()
+//         var $scrollWidth = $('#scroller-eg').get(0).scrollWidth;
+//         var $scrollLeft = $('#scroller-eg').scrollLeft();
+//
+//         if ($scrollWidth - $width === $scrollLeft){
+//             $('#slideLeft-eg').removeClass('hidden');
+//             $('#slideRight-eg').addClass('hidden');
+//         }
+//         if ($scrollLeft===0){
+//             $('#slideRight-eg').removeClass('hidden');
+//             $('#slideLeft-eg').addClass('hidden');
+//         }
+//     });
+//   });
+// });
