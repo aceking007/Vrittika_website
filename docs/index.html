@@ -62,7 +62,11 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active" data-interval="2000">
-              <img src="images/slide1.jpg" class="d-block w-100" alt="First slide">
+              <picture>
+                <!-- use different images based on screen size -->
+                <source media="(max-width: 480px)" srcset="images/slide2.jpg">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="First slide">
+              </picture>
             </div>
             <div class="carousel-item" data-interval="2000">
               <img src="images/slide2.jpg" class="d-block w-100" alt="Second slide">
@@ -203,7 +207,7 @@
           </div>
           <div class="col mb-4">
             <div class="card h-100">
-              <img src="images/products/earthseed/whole/poppy_seed.jpg" alt="Poppy Seeds" style="max-height:400px;">
+              <img src="images/products/earthseed/whole/poppy_seeds.jpg" alt="Poppy Seeds" style="max-height:400px;">
             </div>
           </div>
           <div class="col mb-4">
