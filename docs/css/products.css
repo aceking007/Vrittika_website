@@ -178,7 +178,7 @@ and (min-width : 1224px) {
   .sliderLeft {
     position: relative;
     left: -45vw;
-    top: -20vw;
+    top: -15vw;
     font-size: 0px;
     height: 50px;
     width: 50px;
@@ -189,7 +189,7 @@ and (min-width : 1224px) {
   .sliderRight {
     position: relative;
     right: -45vw;
-    top: -20vw;
+    top: -15vw;
     font-size: 0px;
     height: 50px;
     width: 50px;
